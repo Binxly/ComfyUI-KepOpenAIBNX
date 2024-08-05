@@ -43,7 +43,7 @@ class ImageWithPrompt:
     RETURN_TYPES = ("STRING",)
     FUNCTION = "generate_completion"
 
-    CATEGORY = "GPT-Interrogator"
+    CATEGORY = "OpenAI"
 
     def __init__(self):
         self.open_ai_client: OpenAIClient = OpenAIClient(
