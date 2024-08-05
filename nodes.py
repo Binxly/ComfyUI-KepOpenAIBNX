@@ -21,7 +21,7 @@ def pil2base64(image: PIL.Image.Image) -> str:
 
 # Function from credentials.py
 def get_open_ai_api_key() -> str:
-    return os.environ.get("OPEN_AI_API_KEY", None)
+    return os.environ.get("OPENAI_API_KEY", None)
 
 class ImageWithPrompt:
     @classmethod
