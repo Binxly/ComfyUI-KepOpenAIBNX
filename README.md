@@ -1,6 +1,7 @@
 # ComfyUI-KepOpenAI
 
 ## Overview
+Ensure you have your OPENAI_API_KEY set as an environment variable.
 
 ComfyUI-KepOpenAI is a user-friendly node that serves as an interface to the GPT-4 with Vision (GPT-4V) API. This integration facilitates the processing of images coupled with text prompts, leveraging the capabilities of the OpenAI API to generate text completions that are contextually relevant to the provided inputs.
 
