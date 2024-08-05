@@ -13,7 +13,7 @@ ComfyUI-KepOpenAI is a user-friendly node that serves as an interface to the GPT
 
 ## Configuration
 
-To utilize this node, you must set the `OPEN_AI_API_KEY` environment variable with your OpenAI API key. This ensures that the API is accessible and requests are authenticated properly.
+To utilize this node, you must set the `OPENAI_API_KEY` environment variable with your OpenAI API key. This ensures that the API is accessible and requests are authenticated properly.
 
 ## Changelog
 
