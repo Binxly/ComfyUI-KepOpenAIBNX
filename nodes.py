@@ -33,7 +33,7 @@ class ImageWithPrompt:
                     "STRING",
                     {
                         "multiline": True,
-                        "default": "I am going to give you an image, and i want you to describe them in approximately 256 tokens of exquisite detail. Generate a high quality caption for the image. The most important aspects of the image should be described first. If needed, weights can be applied to the caption in the following format: '(word or phrase:weight)', where the weight should be a float less than 2. Only reply with your proposed caption.",
+                        "default": "I am going to give you an image as well as some keywords. use both of them to create an elaborate generative image prompt using approximately 256 tokens, with exquisite detail. Use exotic, uncommon descriptive words. Favor heavily stylized image descriptors. If needed, weights can be applied to the caption in the following format: '(word or phrase:weight)', where the weight should be a float less than 1.8. Only reply with your proposed text prompt and nothing else. Keywords: ",
                     },
                 ),
                 "max_tokens": ("INT", {"min": 128, "max": 2048, "default": 256}),
