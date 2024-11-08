@@ -1,4 +1,4 @@
-# ComfyUI-KepOpenAI
+# ComfyUI-KepOpenAIBNX
 
 ## Overview
 #### Ensure you have your `OPENAI_API_KEY` set as an environment variable.
